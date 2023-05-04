@@ -462,7 +462,7 @@ Text literals can include the following escape sequences:
 
 ### Comments
 
-A line comment starts with `--` and is followed by any sequence of characters. A line that contains a comment can’t contain anything other than a comment and whitespace. Line comments are currently ignored by Unison.
+A line comment starts with `--` and is followed by any sequence of characters. Once Unison code is added to the codebase by issuing an `add` command while running `ucm`, line comments are removed.
 
 Multi-line comments are supported by starting a comment block with `{-` and ending it with `-}`. 
 
